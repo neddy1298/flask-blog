@@ -4,16 +4,15 @@ from flask_login import login_required, current_user
 
 api = Blueprint('api', __name__)
 menus_schema = MenuSchema(many=True, strict=True)
-menu_schema = UserSchema(strict=True)
+menu_schema = MenuSchema(strict=True)
 kamars_schema = KamarSchema(many=True, strict=True)
-kamar_schema = UserSchema(strict=True)
+kamar_schema = KamarSchema(strict=True)
 hotels_schema = HotelSchema(many=True, strict=True)
-hotel_schema = UserSchema(strict=True)
+hotel_schema = HotelSchema(strict=True)
 users_schema = UserSchema(many=True, strict=True)
 user_schema = UserSchema(strict=True)
 posts_schema = PostSchema(many=True, strict=True)
 post_schema = PostSchema(strict=True)
-
 
 ########################################################################
 ############################# G E T ####################################
