@@ -7,37 +7,37 @@
     <div>
         <h3>Menu API</h3>
 		<div class="embed-responsive embed-responsive-21by9">
-        	<iframe class="embed-responsive-item" src="{{ url_for('api.menu') }}"></iframe>
+        	<iframe class="embed-responsive-item" src="{{ url_for('api.add_menu') }}"></iframe>
     	</div>
-	    <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.menu')}}">See API In Full Page</a>
+	    <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.add_menu')}}">See API In Full Page</a>
     </div>
 	<div>
         <h3>Hotel API</h3>
 		<div class="embed-responsive embed-responsive-21by9">
-        	<iframe class="embed-responsive-item" src="{{ url_for('api.hotel') }}"></iframe>
+        	<iframe class="embed-responsive-item" src="{{ url_for('api.add_hotel') }}"></iframe>
     	</div>
-	    <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.hotel')}}">See API In Full Page</a>
+	    <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.add_hotel')}}">See API In Full Page</a>
     </div>
     <div>
         <h3>Kamar API</h3>
         <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src="{{ url_for('api.kamar') }}"></iframe>
+            <iframe class="embed-responsive-item" src="{{ url_for('api.add_kamar') }}"></iframe>
         </div>
-        <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.kamar')}}">See API In Full Page</a>
+        <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.add_kamar')}}">See API In Full Page</a>
     </div>
     <div>
         <h3>Users API</h3>
         <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src="{{ url_for('api.users') }}"></iframe>
+            <iframe class="embed-responsive-item" src="{{ url_for('api.get_users') }}"></iframe>
         </div>
-        <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.users')}}">See API In Full Page</a>
+        <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.get_users')}}">See API In Full Page</a>
     </div>
     <div>
         <h3>Posts API</h3>
         <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src="{{ url_for('api.posts') }}"></iframe>
+            <iframe class="embed-responsive-item" src="{{ url_for('api.get_posts') }}"></iframe>
         </div>
-        <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.posts')}}">See API In Full Page</a>
+        <a class="btn btn-outline-primary mb-5 mt-3" href="{{ url_for('api.get_posts')}}">See API In Full Page</a>
     </div>
 </div>
 {% endblock content %}
